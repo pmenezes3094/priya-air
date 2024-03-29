@@ -137,4 +137,19 @@ footer .content p {
   color: #ffffff;
   font-weight: lighter;
   font-size: 0.8rem;
+}
+
+.bio-hero {
+  padding: 200px 0;
+  background-color: #333333;
+  text-align: center;
+}
+.bio-hero .content h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.bio-hero .content p {
+  color: #ffffff;
+  padding: 10px 0;
 }/*# sourceMappingURL=style.css.map */
