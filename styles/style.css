@@ -200,18 +200,31 @@ footer .content p {
 }
 
 .bio-hero {
-  padding: 200px 0;
-  background-color: #333333;
+  padding: 50px 0;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.bio-hero .content {
   text-align: center;
 }
-.bio-hero .content h1 {
+.bio-hero .content h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
-  color: #ffffff;
+  font-size: 2rem;
 }
-.bio-hero .content p {
-  color: #ffffff;
-  padding: 10px 0;
+.bio-hero img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #efefef;
 }
 
 .bio-story {
