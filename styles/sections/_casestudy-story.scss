@@ -1,0 +1,21 @@
+.casestudy-story {
+    padding: 50px 0;
+    .content {
+        .casestudy-intro {
+            h1 {
+                font-family: $font-important;
+                font-size: 3rem;
+                color: $color-secondary;
+                padding: 0 0 40px 0;
+            }
+            p {
+                padding: 0 0 10px 0;
+            }
+        }
+        .casestudy-summary {
+            p {
+                padding: 0 0 20px 0;
+            }
+        }
+    }
+}

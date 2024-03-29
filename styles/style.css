@@ -253,4 +253,20 @@ footer .content p {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.casestudy-story {
+  padding: 50px 0;
+}
+.casestudy-story .content .casestudy-intro h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: #333333;
+  padding: 0 0 40px 0;
+}
+.casestudy-story .content .casestudy-intro p {
+  padding: 0 0 10px 0;
+}
+.casestudy-story .content .casestudy-summary p {
+  padding: 0 0 20px 0;
 }/*# sourceMappingURL=style.css.map */
