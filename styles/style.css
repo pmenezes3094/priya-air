@@ -146,10 +146,42 @@ footer .content p {
 }
 .bio-hero .content h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ffffff;
 }
 .bio-hero .content p {
   color: #ffffff;
   padding: 10px 0;
+}
+
+.bio-story {
+  padding: 150px 0;
+}
+.bio-story .content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.bio-story .content .bio-intro {
+  width: 40%;
+  padding: 0 50px 0 0;
+}
+.bio-story .content .bio-intro h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #333333;
+  font-size: 3rem;
+}
+.bio-story .content .bio-intro p {
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
+.bio-story .content .bio-content {
+  padding: 0 0 0 50px;
+}
+.bio-story .content .bio-content h3 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.bio-story .content .bio-content p {
+  padding: 20px 0 0 0;
 }/*# sourceMappingURL=style.css.map */
