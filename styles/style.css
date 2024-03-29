@@ -379,4 +379,30 @@ footer .content p {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.navigation {
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+}
+.navigation .content {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.navigation .content .prev {
+  text-align: left;
+  padding: 30px 0;
+}
+.navigation .content .prev p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.navigation .content .next {
+  text-align: right;
+  padding: 30px 0;
+}
+.navigation .content .next p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
