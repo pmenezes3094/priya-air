@@ -179,7 +179,7 @@ footer .content p {
   padding: 0 0 0 50px;
 }
 .bio-story .content .bio-content h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
 }
 .bio-story .content .bio-content p {
@@ -197,6 +197,35 @@ footer .content p {
 }
 .bio-quote .content h3 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #ffffff;
+}
+
+.bio-skills {
+  padding: 150px 0;
+}
+.bio-skills .content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.bio-skills .content .bio-skill-intro {
+  width: 40%;
+  padding: 0 50px 0 0;
+}
+.bio-skills .content .bio-skill-intro h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #333333;
+  font-size: 3rem;
+}
+.bio-skills .content .bio-skill-intro p {
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
+.bio-skills .content .skill-content {
+  padding: 0 0 0 50px;
+}
+.bio-skills .content .skill-content ul li {
+  padding: 20px 0;
+  border-bottom: 1px solid #333333;
 }/*# sourceMappingURL=style.css.map */

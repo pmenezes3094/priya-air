@@ -1,10 +1,10 @@
-.bio-story{
+.bio-skills {
     padding: 150px 0;
-    .content{
+    .content {
         display: flex;
         align-items: start;
         justify-content: space-between;
-        .bio-intro{
+        .bio-skill-intro {
             width: 40%;
             padding: 0 50px 0 0;
             h2{
@@ -17,14 +17,13 @@
                 padding: 20px 0;
             }
         }
-        .bio-content{
+        .skill-content {
             padding: 0 0 0 50px;
-            h3{
-                font-size: 3rem;
-                font-weight: 300;
-            }
-            p{
-                padding: 20px 0 0 0;
+            ul {
+                li {
+                    padding: 20px 0;
+                    border-bottom: 1px solid $color-secondary;
+                }
             }
         }
     }
