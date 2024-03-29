@@ -67,7 +67,7 @@ header .content nav ul li {
 }
 .hero .content h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .hero img {
   width: 100%;
@@ -105,7 +105,7 @@ header .content nav ul li {
 }
 .project .content .project-card .card-content h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .project .content .project-card .card-content p {
   font-size: 0.8rem;
@@ -194,9 +194,9 @@ footer {
 }
 footer .content p {
   text-align: center;
-  font-style: italic;
   color: #333333;
   font-weight: 300;
+  font-size: 0.8rem;
 }
 
 .bio-story {
@@ -239,6 +239,8 @@ footer .content p {
 .bio-quote .content p {
   padding: 15px 0;
   color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 .bio-quote .content h3 {
   font-family: "Bebas Neue", sans-serif;
@@ -273,31 +275,6 @@ footer .content p {
 .bio-skills .content .skill-content ul li {
   padding: 20px 0;
   border-bottom: 1px solid #333333;
-}
-
-.casestudy-hero {
-  position: relative;
-  height: 500px;
-  overflow: hidden;
-  background-color: #333333;
-}
-.casestudy-hero .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.casestudy-hero img {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .casestudy-story {
@@ -351,7 +328,7 @@ footer .content p {
 }
 
 .casestudy-pointer .content {
-  padding: 0 0 50px 0;
+  padding-bottom: 50px;
   display: flex;
   align-items: start;
   gap: 50px;
@@ -413,13 +390,12 @@ footer .content p {
 }
 
 .navigation {
-  border-bottom: 1px solid #333333;
-  border-top: 1px solid #333333;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
 }
 .navigation .content {
   display: flex;
   justify-content: center;
-  padding: 0;
 }
 .navigation .content .prev {
   text-align: left;
