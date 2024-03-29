@@ -1,0 +1,11 @@
+.hero{
+    padding: 200px 0;
+    background-color: #efefef;
+    .content{
+        text-align: center;
+        h1{
+            font-family: $font-important;
+            font-size: 3rem;
+        }
+    }
+}
