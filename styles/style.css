@@ -55,15 +55,31 @@ header .content nav ul li {
 }
 
 .hero {
-  padding: 200px 0;
-  background-color: #efefef;
+  padding: 50px 0;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .hero .content {
   text-align: center;
 }
-.hero .content h1 {
+.hero .content h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #efefef;
 }
 
 .project {
