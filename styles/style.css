@@ -286,4 +286,31 @@ footer .content p {
 .casestudy-contribution .content p {
   color: #333333;
   padding: 20px 0 0 0;
+}
+
+.casestudy-pointer .content {
+  padding: 50px 0;
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+.casestudy-pointer .content .achievements h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333333;
+}
+.casestudy-pointer .content .achievements p {
+  color: #333333;
+  padding: 20px 0 0 0;
+}
+.casestudy-pointer .content .challenges h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #333333;
+}
+.casestudy-pointer .content .challenges p {
+  color: #333333;
+  padding: 20px 0 0 0;
 }/*# sourceMappingURL=style.css.map */
