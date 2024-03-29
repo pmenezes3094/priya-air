@@ -227,4 +227,30 @@ footer .content p {
 .bio-skills .content .skill-content ul li {
   padding: 20px 0;
   border-bottom: 1px solid #333333;
+}
+
+.casestudy-hero {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #333333;
+}
+.casestudy-hero .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.casestudy-hero img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
