@@ -273,6 +273,23 @@ footer .content p {
   padding: 0 0 20px 0;
 }
 
+.casestudy-process {
+  height: 200px;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+.casestudy-process .content {
+  background-color: #efefef;
+  height: 200px;
+  padding: 0 30px;
+}
+.casestudy-process .content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .casestudy-contribution .content {
   background-color: #efefef;
   padding: 30px;
