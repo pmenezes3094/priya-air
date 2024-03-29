@@ -1,13 +1,12 @@
 footer {
-    background-color: $color-secondary;
+    background-color: $color-accent;
     padding: 20px 0;
     .content {
         p {
             text-align: center;
             font-style: italic;
-            color: $color-primary;
-            font-weight: lighter;
-            font-size: 0.8rem;
+            color: $color-secondary;
+            font-weight: 300;
         }
     }
 }

@@ -128,15 +128,14 @@ header .content nav ul li {
 }
 
 footer {
-  background-color: #333333;
+  background-color: #efefef;
   padding: 20px 0;
 }
 footer .content p {
   text-align: center;
   font-style: italic;
-  color: #ffffff;
-  font-weight: lighter;
-  font-size: 0.8rem;
+  color: #333333;
+  font-weight: 300;
 }
 
 .bio-hero {
