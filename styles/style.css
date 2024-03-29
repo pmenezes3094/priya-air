@@ -125,4 +125,16 @@ header .content nav ul li {
 }
 .contact .contact-form .content form .form-row .form-field .field::placeholder {
   padding: 10px;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+}
+footer .content p {
+  text-align: center;
+  font-style: italic;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
