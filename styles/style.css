@@ -184,4 +184,19 @@ footer .content p {
 }
 .bio-story .content .bio-content p {
   padding: 20px 0 0 0;
+}
+
+.bio-quote {
+  background-color: #333333;
+  text-align: center;
+  padding: 100px 0;
+}
+.bio-quote .content p {
+  padding: 15px 0;
+  color: #ffffff;
+}
+.bio-quote .content h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
