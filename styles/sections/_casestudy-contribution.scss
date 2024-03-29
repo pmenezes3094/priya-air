@@ -1,0 +1,16 @@
+.casestudy-contribution {
+    .content {
+        background-color: $color-accent;
+        padding: 30px;
+        h3 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: $color-secondary;
+        }
+        p{
+            color: $color-secondary;
+            padding: 20px 0 0 0;
+        }
+    }
+}
