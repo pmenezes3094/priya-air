@@ -8,6 +8,14 @@ body {
   font-size: 16px;
 }
 
+button {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #333333;
+  text-transform: uppercase;
+  width: 150px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -56,4 +64,65 @@ header .content nav ul li {
 .hero .content h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
+}
+
+.project {
+  padding: 50px 0;
+}
+.project .content .project-card {
+  text-align: center;
+  margin: 20px 0;
+  padding: 50px 0;
+  background-color: #efefef;
+}
+
+.contact .contact-email {
+  padding: 50px 0;
+  background-color: #333333;
+}
+.contact .contact-email .content {
+  text-align: center;
+}
+.contact .contact-email .content h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.contact .contact-email .content p {
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+.contact .contact-form {
+  padding: 50px 0;
+  background-color: #efefef;
+}
+.contact .contact-form .content h2 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  color: #333333;
+}
+.contact .contact-form .content form {
+  margin: 0 auto;
+  width: 500px;
+}
+.contact .contact-form .content form .form-row {
+  display: flex;
+  padding: 10px 0;
+  gap: 20px;
+}
+.contact .contact-form .content form .form-row .form-submit {
+  text-align: center;
+}
+.contact .contact-form .content form .form-row .form-field .field {
+  border: none;
+  padding: 10px 0;
+}
+.contact .contact-form .content form .form-row .form-field .field::-moz-placeholder {
+  padding: 10px;
+}
+.contact .contact-form .content form .form-row .form-field .field::placeholder {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
