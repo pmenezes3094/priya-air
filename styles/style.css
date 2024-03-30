@@ -364,6 +364,11 @@ footer .content p {
   padding: 0 0 20px 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .casestudy-story {
+    text-align: center;
+  }
+}
 .casestudy-process {
   height: 200px;
   position: relative;
@@ -423,6 +428,12 @@ footer .content p {
   padding: 20px 0 0 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .casestudy-pointer .content {
+    text-align: center;
+    flex-direction: column;
+  }
+}
 .casestudy-image {
   padding: 50px 0;
 }
@@ -458,6 +469,24 @@ footer .content p {
      object-fit: cover;
 }
 
+@media only screen and (max-width: 768px) {
+  .casestudy-image {
+    padding: 50px 0;
+  }
+  .casestudy-image .image-row-1,
+  .casestudy-image .image-row-2,
+  .casestudy-image .image-row-3,
+  .casestudy-image .image-row-4 {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .casestudy-image img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
 .navigation {
   border-bottom: 1px solid #cccccc;
   border-top: 1px solid #cccccc;
