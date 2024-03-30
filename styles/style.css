@@ -517,4 +517,12 @@ footer .content p {
 .navigation .content .next p {
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+
+.hero {
+  z-index: 1000;
+}
+
+.header {
+  z-index: 999;
 }/*# sourceMappingURL=style.css.map */
