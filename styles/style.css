@@ -78,7 +78,6 @@ header .content nav ul li {
   overflow: hidden;
   display: flex;
   align-items: center;
-  background-color: #efefef;
 }
 .hero .content {
   text-align: center;
@@ -97,6 +96,7 @@ header .content nav ul li {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: #efefef;
 }
 
 @media only screen and (max-width: 768px) {
