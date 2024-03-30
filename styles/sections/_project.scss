@@ -6,11 +6,10 @@
             position: relative;
             height: 500px;
             overflow: hidden;
-            background-color: $color-secondary;
+            background-color: $color-accent;
             margin: 30px 0;
             .card-content {
                 max-width: 300px;
-                text-align: left;
                 background-color: $color-accent;
                 padding: 30px;
                 position: absolute;
@@ -39,4 +38,18 @@
         }
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+.project {
+    .content {
+        .project-card {
+            height: 100%;
+            .card-content {
+                position: unset;
+                max-width: 100%;
+            }
+        }
+    }
+}
 }

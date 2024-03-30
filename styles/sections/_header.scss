@@ -19,3 +19,25 @@ header {
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: $color-primary;
+        .content {
+            display: flex;
+            flex-direction: column;
+            .logo {
+                text-align: center;
+            }
+            nav {
+                padding: 20px 0;
+                ul {
+                    li {
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+  }

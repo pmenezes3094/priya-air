@@ -28,3 +28,12 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        img {
+            height: 100%;
+        }
+    }
+}
+
