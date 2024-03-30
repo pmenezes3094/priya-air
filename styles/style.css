@@ -400,6 +400,11 @@ footer .content p {
   padding: 20px 0 0 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .casestudy-contribution .content {
+    text-align: center;
+  }
+}
 .casestudy-pointer .content {
   padding-bottom: 50px;
   display: flex;
