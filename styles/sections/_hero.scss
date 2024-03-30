@@ -5,6 +5,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
+    background-color: $color-accent;
 
     .content {
         text-align: center;
@@ -24,7 +25,6 @@
         transform: translateX(-50%);
         z-index: -1;
         object-fit: cover;
-        background-color: $color-accent;
     }
 
 }
