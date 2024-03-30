@@ -52,6 +52,9 @@ header .content nav ul {
 header .content nav ul li {
   text-align: right;
 }
+header .content nav ul li a {
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 768px) {
   header {
