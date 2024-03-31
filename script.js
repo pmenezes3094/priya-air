@@ -97,7 +97,7 @@ cards.forEach((element) => {
             trigger: element,
             start: "top bottom",
             end: "top 400%",
-            scrub: 4
+            scrub: 1
         },
     });
 });
