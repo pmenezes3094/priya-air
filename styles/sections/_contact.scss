@@ -2,6 +2,7 @@
     .contact-details {
         padding: 50px 0;
         background-color: $color-secondary;
+        @include hover-on-dark;
         .content {
             text-align: center;
             h2 {
@@ -24,6 +25,7 @@
                 max-width: 300px;
                 margin: auto;
                 li {
+                    @include hover-on-dark;
                     a {
                         color: $color-primary;
                         text-decoration: none;

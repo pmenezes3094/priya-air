@@ -52,6 +52,24 @@ header .content nav ul {
 }
 header .content nav ul li {
   text-align: right;
+  margin: 5px 0;
+}
+header .content nav ul li a {
+  position: relative;
+  transition: 0.25s ease-in-out;
+}
+header .content nav ul li a:hover::before {
+  width: 100%;
+}
+header .content nav ul li a::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background: #333333;
+  transition: width 0.25s ease-in-out;
+  right: 0;
 }
 header .content nav ul li a {
   text-decoration: none;
@@ -163,6 +181,24 @@ header .content nav ul li a {
 .contact .contact-details {
   padding: 50px 0;
   background-color: #333333;
+  margin: 5px 0;
+}
+.contact .contact-details a {
+  position: relative;
+  transition: 0.25s ease-in-out;
+}
+.contact .contact-details a:hover::before {
+  width: 100%;
+}
+.contact .contact-details a::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background: #ffffff;
+  transition: width 0.25s ease-in-out;
+  right: 0;
 }
 .contact .contact-details .content {
   text-align: center;
@@ -186,6 +222,26 @@ header .content nav ul li a {
   gap: 20px;
   max-width: 300px;
   margin: auto;
+}
+.contact .contact-details .content ul li {
+  margin: 5px 0;
+}
+.contact .contact-details .content ul li a {
+  position: relative;
+  transition: 0.25s ease-in-out;
+}
+.contact .contact-details .content ul li a:hover::before {
+  width: 100%;
+}
+.contact .contact-details .content ul li a::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  width: 0;
+  height: 1px;
+  background: #ffffff;
+  transition: width 0.25s ease-in-out;
+  right: 0;
 }
 .contact .contact-details .content ul li a {
   color: #ffffff;

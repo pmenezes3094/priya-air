@@ -1,0 +1,53 @@
+@mixin hover-on-light {
+    margin: 5px 0;
+  
+    a {
+      position: relative;
+      transition: 0.25s ease-in-out;
+  
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+  
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: -5px;
+        width: 0;
+        height: 1px;
+        background: $color-secondary;
+        transition: width 0.25s ease-in-out;
+        right: 0;
+      }
+    }
+  }
+
+  @mixin hover-on-dark {
+    margin: 5px 0;
+  
+    a {
+      position: relative;
+      transition: 0.25s ease-in-out;
+  
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+  
+      &::before {
+        position: absolute;
+        content: "";
+        bottom: -5px;
+        width: 0;
+        height: 1px;
+        background: $color-primary;
+        transition: width 0.25s ease-in-out;
+        right: 0;
+      }
+    }
+  }
+  
+  
