@@ -1,0 +1,40 @@
+.hero {
+    padding: 50px 0;
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+
+    .content {
+        text-align: center;
+
+        h2 {
+            font-family: $font-important;
+            font-size: 3rem;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+        object-fit: cover;
+        background-color: $color-accent;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        img {
+            height: 100%;
+        }
+    }
+}
+

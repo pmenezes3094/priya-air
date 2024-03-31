@@ -1,0 +1,20 @@
+* {
+    //Reset
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.content {
+    padding: 0 $gap;
+    max-width: 948px;
+    margin: 0 auto;
+}
+
+ul {
+    li {
+        list-style-type: none;
+    }
+}
+

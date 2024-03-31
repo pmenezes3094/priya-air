@@ -1,0 +1,83 @@
+.contact{
+    .contact-details {
+        padding: 50px 0;
+        background-color: $color-secondary;
+        @include hover-on-dark;
+        .content {
+            text-align: center;
+            h2 {
+                font-family: $font-important;
+                font-size: 3rem;
+                color: $color-primary;
+                padding: 0 0 50px 0;
+            }
+            a {
+                font-size: 2.5rem;
+                color: $color-primary;
+                font-weight:lighter;
+                text-decoration: none;
+            }
+            ul {
+                padding: 50px 0;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                max-width: 300px;
+                margin: auto;
+                li {
+                    @include hover-on-dark;
+                    a {
+                        color: $color-primary;
+                        text-decoration: none;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    .contact-form {
+        padding: 50px 0;
+        background-color: $color-accent;
+        .content {
+            h2 {
+                text-align: center;
+                font-family: $font-important;
+                font-size: 2rem;
+                color: $color-secondary;
+            }
+            form {
+                margin: 0 auto;
+                width: 500px;
+                .form-row {
+                    display: flex;
+                    padding: 10px 0;
+                    gap: $gap;
+                    .form-submit {
+                        text-align: center;
+                    }
+                    .form-field {
+                        .field {
+                            border: none;
+                            padding: 10px 0;
+                            &::placeholder {
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact {
+        .contact-details {
+            .content {
+                a {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

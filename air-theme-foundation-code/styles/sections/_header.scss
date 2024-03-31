@@ -1,0 +1,48 @@
+header {
+    padding: $gap 0;
+    position: sticky;
+    .content{
+        display: flex;
+        align-items: center;
+        .logo{
+            font-family: $font-important;
+            font-size: 1.5rem;
+        }
+        nav{
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                li{
+                    text-align: right;
+                    @include hover-on-light;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: $color-primary;
+        .content {
+            display: flex;
+            flex-direction: column;
+            .logo {
+                text-align: center;
+            }
+            nav {
+                padding: 20px 0;
+                ul {
+                    li {
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+  }
